@@ -1,0 +1,11 @@
+{
+    "transforms": [
+        {
+            "mode": "sql",
+            "include": "**/*.sql",
+            "emitTemplate": "{{dir}}/{{name}}.queries.ts"
+        }
+    ],
+    "srcDir": "./src/",
+    "dbUrl": "postgres://root:password123@localhost:5432/desafio_db"
+}
